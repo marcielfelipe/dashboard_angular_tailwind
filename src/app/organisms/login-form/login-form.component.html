@@ -1,0 +1,28 @@
+
+<div class="max-w-md mx-auto p-8 md:p-12 my-10 flex flex-col w-full  px-4 py-8 bg-white rounded-lg shadow dark:bg-gray-800 sm:px-6 md:px-8 lg:px-10">
+  <div class="self-center mb-6 text-xl font-light text-gray-600 sm:text-2xl dark:text-white">
+    Faça login
+  </div>
+  <div class="mt-8">
+    <form action="#" autoComplete="off">
+      <div class="flex flex-col mb-2">
+       <app-input-icon
+        icon='email'
+        placeholder="E-mail"
+      ></app-input-icon>
+      </div>
+      <div class="flex flex-col mb-6">
+        <app-input-icon
+          icon='lock'
+          placeholder="Senha"
+        ></app-input-icon>
+      </div>
+      <div class="flex items-center mb-6 -mt-4">
+        <div class="flex ml-auto">
+          <app-link content='Esqueci minha senha.' link='/'></app-link>
+        </div>
+      </div>
+      <app-button typeButton='submit' content="Login"></app-button>
+    </form>
+  </div>
+</div>
